@@ -23,5 +23,5 @@ func largestPrimeFactor(n int) int{
 func main() {
     number := 14
     largest := largestPrimeFactor(number)
-    fmt.Println("The largest prime factor of %d is %d\n",number,largest)
+    fmt.Println("The largest prime factor of",number,"is",largest)
 }
