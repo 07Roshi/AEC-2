@@ -20,7 +20,7 @@ func largestPrimeFactor(n int) int{
     }
     return largest
 }
-func main(){
+func main() {
     number := 14
     largest := largestPrimeFactor(number)
     fmt.Println("The largest prime factor of %d is %d\n",number,largest)
