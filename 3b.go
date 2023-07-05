@@ -1,9 +1,11 @@
 //Web Server
 
 package main
-import "fmt"
-import "net/http"
-import "log"
+import (
+	"fmt"
+ 	"net/http"
+	"log"
+)
 
 func main(){
 	//Define the route handler function

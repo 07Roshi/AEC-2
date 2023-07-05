@@ -1,10 +1,11 @@
 //check point synchronization
 
 package main
-import "fmt"
-import "sync"
-import "time"
-
+import (
+	"fmt"
+	"sync"
+    "time"
+)
 func worker(id int, checkpoint chan bool, resume chan bool, wg *sync.WaitGroup){
 	defer wg.Done()
 	fmt.Printf("Worker %d : Starting\n",id)

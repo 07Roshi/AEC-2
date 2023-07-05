@@ -1,10 +1,12 @@
 //HTTP request
 
 package main
-import "encoding/json"
-import "fmt"
-import "io/ioutil"
-import "net/http"
+import (
+	"encoding/json"
+ 	"fmt"
+ 	"io/ioutil"
+ 	"net/http"
+)
 
 type Post struct{
 	UserID int `json:"userId"`
