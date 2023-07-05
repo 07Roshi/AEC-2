@@ -3,10 +3,11 @@
 
 package main
 
-import "fmt"
-import	"sync"
-import "time"
-
+import (
+	"fmt"
+	"sync"
+	"time"
+)
 
 const(
 	numPhilosophers = 3
