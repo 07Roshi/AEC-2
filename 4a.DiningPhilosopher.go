@@ -1,6 +1,3 @@
-//Dining philosophers problem
-
-
 package main
 
 import (

@@ -1,5 +1,4 @@
 //Special pythagorean triplet
-
 package main
 import "fmt"
 func findSpecialPythagoreanTriplet(n int)(int,int,int){
