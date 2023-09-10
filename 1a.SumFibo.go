@@ -18,3 +18,14 @@ func main() {
 	}
 	fmt.Println("The sum of the even-valued terms is ", sum)
 }
+
+// Output:
+// 1
+// 2
+// 3
+// 5
+// 8
+// 13
+// 21
+// 34
+// The sum of the even-valued terms is  44

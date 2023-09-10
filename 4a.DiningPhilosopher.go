@@ -83,3 +83,17 @@ func main(){
 }
 wg.Wait()
 }
+
+// output
+// Philosopher 2 is thinking
+// Philosopher 0 is thinking
+// Philosopher 1 is thinking
+// Philosopher 1 is eating
+// Philosopher 1 is thinking
+// Philosopher 2 is eating
+// Philosopher 2 is thinking
+// Philosopher 0 is eating
+// Philosopher 0 is thinking
+// Philosopher 1 is eating
+// Philosopher 0 is eating
+// Philosopher 2 is eating

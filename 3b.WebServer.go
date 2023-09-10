@@ -29,3 +29,6 @@ func main(){
 	log.Println("Server listening on port 8080....")
 	log.Fatal(server.ListenAndServe())
 }
+
+// output:
+// 2023/09/10 05:58:54 Server listening on port 8080....

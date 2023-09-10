@@ -35,3 +35,13 @@ func main(){
 	
 
 }
+
+// Output
+// Value of apple :  1
+// Value of banana :  2
+// Updated value of apple :  5
+// After deleting orange :  map[apple:5 banana:2]
+// Value of banana :  2
+// Key : apple Value : 5
+// Key : banana Value : 2
+// Length of the map : 2

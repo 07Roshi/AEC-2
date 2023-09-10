@@ -50,3 +50,13 @@ fmt.Printf("ID : %d\n",post.ID)
 fmt.Printf("Title : %s\n",post.Title)
 fmt.Printf("Body : %s\n",post.Body)
 }
+
+
+// Output
+// UserID : 1
+// ID : 1
+// Title : sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+// Body : quia et suscipit
+// suscipit recusandae consequuntur expedita et cum
+// reprehenderit molestiae ut ut quas totam
+// nostrum rerum est autem sunt rem eveniet architecto

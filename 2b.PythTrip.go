@@ -22,3 +22,6 @@ func main(){
 		fmt.Printf("No Special Pythagorean Triplet found for sum %d\n",n)
 	}
 }
+
+// Output:
+// The Special Pythagorean Triplet for sum 150 is (25, 60, 65)

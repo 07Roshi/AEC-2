@@ -50,3 +50,23 @@ func main(){
 	wg.Wait()
 	fmt.Println("All workers completed their work")
 }
+
+// Output:
+// Worker 5 : Starting
+// Worker 1 : Starting
+// Worker 2 : Starting
+// Worker 3 : Starting
+// Worker 4 : Starting
+// Worker 1 : Checkpoint reached
+// Worker 2 : Checkpoint reached
+// Worker 3 : Checkpoint reached
+// Worker 4 : Checkpoint reached
+// Worker 5 : Checkpoint reached
+// All workers reached the checkpoint
+// Resuming all workers
+// Worker 5 : Resuming
+// Worker 1 : Resuming
+// Worker 2 : Resuming
+// Worker 3 : Resuming
+// Worker 4 : Resuming
+// All workers completed their work
